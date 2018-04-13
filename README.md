@@ -1,5 +1,5 @@
-# daily-goals
-Daily goals
+# Daily-Goals
+Daily Goals
 
 An app that reminds a user of their daily goals set.
 
