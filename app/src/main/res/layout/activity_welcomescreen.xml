@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".welcomescreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="@string/appName"
+                android:textColor="@android:color/black"
+                android:textSize="50sp"
+                android:textAllCaps="true"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:id="@+id/wakingupIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/wakingman"
+                android:layout_below="@+id/appName"
+                android:layout_marginTop="40dp"
+                />
+            <ImageView
+                android:id="@+id/bathingIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/bathing"
+                android:layout_below="@+id/appName"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="40dp"
+                android:layout_toEndOf="@id/wakingupIcon"
+                />
+
+            <ImageView
+                android:id="@+id/eatingIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/eating"
+                android:layout_below="@+id/appName"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@id/bathingIcon"
+                />
+
+            <ImageView
+                android:id="@+id/runningIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/runningman"
+                android:layout_below="@+id/wakingupIcon"
+                android:layout_marginTop="10dp"
+                />
+            <ImageView
+                android:id="@+id/cookingIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/cooking"
+                android:layout_below="@+id/bathingIcon"
+                android:layout_toEndOf="@id/runningIcon"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/sleepingIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/sleeping"
+                android:layout_below="@+id/bathingIcon"
+                android:layout_toEndOf="@id/cookingIcon"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/punchLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sleepingIcon"
+                android:layout_marginTop="30dp"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:text="@string/punchLine"
+                />
+
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/trackGoals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/black"
+            android:layout_marginBottom="10dp"
+            android:text="@string/trackGoalsButtonText"
+            android:textSize="20sp"
+            />
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
