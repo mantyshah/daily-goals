@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # daily-goals
 This application is a collaborative project made by the Google Udacity Android Basics Scholars.
 
@@ -10,15 +9,3 @@ Daily goals app. An app that reminds you of your daily goals set. It will showca
 to store performance. 
 The app will be like an assistant which will guide you throughout your life.
 It will manage your day. It will manage how you spend your time. It will manage your relations and connections. Eg. It will give you optimized suggestions to spend that time effectively by considering how you spend your time, the app will build your schedule and will tell you accordingly. The app will use machine learning.
-=======
-# Daily-Goals
-Daily Goals
-
-An app that reminds a user of their daily goals set.
-
-The app will showcase users performance in the form of pie chart. 
-
-The app will have database(say using Room) to store performance. 
-
-The app will use machine learning.
->>>>>>> origin/master
