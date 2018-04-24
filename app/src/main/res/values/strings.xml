@@ -12,9 +12,6 @@
     <string name="lunch">LUNCH</string>
     <string name="games">GAMES</string>
     <string name="dinner">DINNER</string>
-    <string name="appName">Daily Goals</string>
-    <string name="punchLine">The easiest and quickest way  to track your daily goals</string>
-    <string name="trackGoalsButtonText">Track Goals</string>
 
     <!-- Strings for titles of each page of the welcome screen -->
     <string name="title_welcome">Welcome to Daily Goals</string>
